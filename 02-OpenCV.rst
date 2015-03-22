@@ -107,7 +107,7 @@ JavaCVは\ `JavaCPP <https://github.com/bytedeco/javacpp>`_\ というC++のソ�
 .. figure:: ./images/half.png
     :width: 40%
 
-\ **このプログラムが問題なく実行で切れいれば、OpenCVの動作検証はOKです**\ 。以下は読み飛ばしても構いません。
+\ **このプログラムが問題なく実行できていれば、OpenCVの動作検証はOKです**\ 。以下は読み飛ばしても構いません。
 
 .. note::
 
@@ -313,7 +313,7 @@ JavaCVは\ `JavaCPP <https://github.com/bytedeco/javacpp>`_\ というC++のソ�
 
    $ mvn compile exec:java -Dexec.mainClass=com.example.App -Dexec.args=hoge.png
 
-また、ループ処理ないの描画部分を書き換えて、遊んでみてください。描画の例は、\ `このリファレンス <http://book.mynavi.jp/support/pc/opencv2/c3/opencv_drawing.html>`_\ が役立ちます。
+また、ループ処理内の描画部分を書き換えて、遊んでみてください。描画の例は、\ `このリファレンス <http://book.mynavi.jp/support/pc/opencv2/c3/opencv_drawing.html>`_\ が役立ちます。
 
 
 .. warning::
